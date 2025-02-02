@@ -1,0 +1,19 @@
+{
+  "name": "flyspace-cli",
+  "packageManager": "pnpm@9.13.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "node apps/cli/dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "turbo": "^2.3.3"
+  }
+}

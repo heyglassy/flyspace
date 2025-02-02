@@ -1,0 +1,9 @@
+{
+  "extends": "@flyspace/tsconfig/vite.json",
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "preserveSymlinks": true,
+    "baseUrl": "."
+  }
+}

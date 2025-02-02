@@ -1,0 +1,5 @@
+{
+  "extends": "@flyspace/tsconfig/cli.json",
+
+  "include": ["src", ".eslintrc.cjs"]
+}
